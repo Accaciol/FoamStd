@@ -1,5 +1,11 @@
 name: Generate and publish Foam Graph
 
+# Grant the workflow explicit permissions so the GITHUB_TOKEN can push to gh-pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 on:
   push:
     branches: [ main ]
@@ -10,6 +16,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # ensure that the action uses the GITHUB_TOKEN credentials for push
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -23,6 +32,12 @@ jobs:
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
+          # prefer the repository's GITHUB_TOKEN. If your organization or repo
+          # settings disallow the GitHub Actions bot from pushing, create a
+          # Personal Access Token (repo scope) and store it as GH_PAT secret,
+          # then uncomment the next line and remove/comment github_token.
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          # personal_token: ${{ secrets.GH_PAT }}
           publish_dir: ./web
-          # keep empty commit filter to allow re-publish even when no changes (action handles)
+          publish_branch: gh-pages
+          allow_empty_commit: true

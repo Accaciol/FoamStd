@@ -1,0 +1,1069 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "label": "backlinking.md",
+      "path": "docs/features/backlinking.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 2,
+      "label": "commands.md",
+      "path": "docs/features/commands.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 3,
+      "label": "custom-markdown-preview-styles.md",
+      "path": "docs/features/custom-markdown-preview-styles.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 4,
+      "label": "custom-snippets.md",
+      "path": "docs/features/custom-snippets.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 5,
+      "label": "daily-notes.md",
+      "path": "docs/features/daily-notes.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 6,
+      "label": "embeds.md",
+      "path": "docs/features/embeds.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 7,
+      "label": "graph-view.md",
+      "path": "docs/features/graph-view.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 8,
+      "label": "link-reference-definitions.md",
+      "path": "docs/features/link-reference-definitions.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 9,
+      "label": "note-properties.md",
+      "path": "docs/features/note-properties.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 10,
+      "label": "paste-images-from-clipboard.md",
+      "path": "docs/features/paste-images-from-clipboard.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 11,
+      "label": "resource-filters.md",
+      "path": "docs/features/resource-filters.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 12,
+      "label": "spell-checking.md",
+      "path": "docs/features/spell-checking.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 13,
+      "label": "tags.md",
+      "path": "docs/features/tags.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 14,
+      "label": "templates.md",
+      "path": "docs/features/templates.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 15,
+      "label": "wikilinks.md",
+      "path": "docs/features/wikilinks.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 16,
+      "label": "frequently-asked-questions.md",
+      "path": "docs/frequently-asked-questions.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 17,
+      "label": "first-workspace.md",
+      "path": "docs/getting-started/first-workspace.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 18,
+      "label": "get-started-with-vscode.md",
+      "path": "docs/getting-started/get-started-with-vscode.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 19,
+      "label": "installation.md",
+      "path": "docs/getting-started/installation.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 20,
+      "label": "keyboard-shortcuts.md",
+      "path": "docs/getting-started/keyboard-shortcuts.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 21,
+      "label": "navigation.md",
+      "path": "docs/getting-started/navigation.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 22,
+      "label": "note-taking-in-foam.md",
+      "path": "docs/getting-started/note-taking-in-foam.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 23,
+      "label": "recommended-extensions.md",
+      "path": "docs/getting-started/recommended-extensions.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 24,
+      "label": "sync-notes.md",
+      "path": "docs/getting-started/sync-notes.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 25,
+      "label": "graph-visualization.md",
+      "path": "docs/graph-visualization.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 26,
+      "label": "index.md",
+      "path": "docs/index.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 27,
+      "label": "generate-gatsby-site.md",
+      "path": "docs/publishing/generate-gatsby-site.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 28,
+      "label": "math-support-with-katex.md",
+      "path": "docs/publishing/math-support-with-katex.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 29,
+      "label": "math-support-with-mathjax.md",
+      "path": "docs/publishing/math-support-with-mathjax.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 30,
+      "label": "publish-to-azure-devops-wiki.md",
+      "path": "docs/publishing/publish-to-azure-devops-wiki.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 31,
+      "label": "publish-to-github-pages.md",
+      "path": "docs/publishing/publish-to-github-pages.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 32,
+      "label": "publish-to-github.md",
+      "path": "docs/publishing/publish-to-github.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 33,
+      "label": "publish-to-gitlab-pages.md",
+      "path": "docs/publishing/publish-to-gitlab-pages.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 34,
+      "label": "publish-to-netlify-with-eleventy.md",
+      "path": "docs/publishing/publish-to-netlify-with-eleventy.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 35,
+      "label": "publish-to-vercel.md",
+      "path": "docs/publishing/publish-to-vercel.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 36,
+      "label": "publishing.md",
+      "path": "docs/publishing/publishing.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 37,
+      "label": "add-images-to-notes.md",
+      "path": "docs/recipes/add-images-to-notes.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 38,
+      "label": "automatic-git-syncing.md",
+      "path": "docs/recipes/automatic-git-syncing.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 39,
+      "label": "automatically-expand-urls-to-well-titled-links.md",
+      "path": "docs/recipes/automatically-expand-urls-to-well-titled-links.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 40,
+      "label": "capture-notes-with-drafts-pro.md",
+      "path": "docs/recipes/capture-notes-with-drafts-pro.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 41,
+      "label": "capture-notes-with-shortcuts-and-github-actions.md",
+      "path": "docs/recipes/capture-notes-with-shortcuts-and-github-actions.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 42,
+      "label": "diagrams-in-markdown.md",
+      "path": "docs/recipes/diagrams-in-markdown.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 43,
+      "label": "export-to-pdf.md",
+      "path": "docs/recipes/export-to-pdf.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 44,
+      "label": "generate-material-for-mkdocs-site.md",
+      "path": "docs/recipes/generate-material-for-mkdocs-site.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 45,
+      "label": "how-to-write-recipes.md",
+      "path": "docs/recipes/how-to-write-recipes.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 46,
+      "label": "markup-converter.md",
+      "path": "docs/recipes/markup-converter.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 47,
+      "label": "migrating-from-obsidian.md",
+      "path": "docs/recipes/migrating-from-obsidian.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 48,
+      "label": "migrating-from-onenote.md",
+      "path": "docs/recipes/migrating-from-onenote.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 49,
+      "label": "migrating-from-roam.md",
+      "path": "docs/recipes/migrating-from-roam.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 50,
+      "label": "predefined-user-snippets.md",
+      "path": "docs/recipes/predefined-user-snippets.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 51,
+      "label": "real-time-collaboration.md",
+      "path": "docs/recipes/real-time-collaboration.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 52,
+      "label": "recipes.md",
+      "path": "docs/recipes/recipes.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 53,
+      "label": "search-for-notes.md",
+      "path": "docs/recipes/search-for-notes.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 54,
+      "label": "shows-image-preview-on-hover.md",
+      "path": "docs/recipes/shows-image-preview-on-hover.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 55,
+      "label": "take-notes-from-mobile-phone.md",
+      "path": "docs/recipes/take-notes-from-mobile-phone.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 56,
+      "label": "web-clipper.md",
+      "path": "docs/recipes/web-clipper.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 57,
+      "label": "write-your-notes-in-github-gist.md",
+      "path": "docs/recipes/write-your-notes-in-github-gist.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 58,
+      "label": "cli.md",
+      "path": "docs/tools/cli.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 59,
+      "label": "foam-logging-in-vscode.md",
+      "path": "docs/tools/foam-logging-in-vscode.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 60,
+      "label": "orphans.md",
+      "path": "docs/tools/orphans.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 61,
+      "label": "workspace-janitor.md",
+      "path": "docs/tools/workspace-janitor.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 62,
+      "label": "getting-started.md",
+      "path": "getting-started.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 63,
+      "label": "inbox.md",
+      "path": "inbox.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 64,
+      "label": "readme.md",
+      "path": "readme.md",
+      "title": null,
+      "aliases": []
+    },
+    {
+      "id": 65,
+      "label": "todo.md",
+      "path": "todo.md",
+      "title": null,
+      "aliases": []
+    }
+  ],
+  "edges": [
+    {
+      "from": 62,
+      "to": 18
+    },
+    {
+      "from": 62,
+      "to": 63
+    },
+    {
+      "from": 62,
+      "to": 25
+    },
+    {
+      "from": 62,
+      "to": 12
+    },
+    {
+      "from": 62,
+      "to": 10
+    },
+    {
+      "from": 62,
+      "to": 5
+    },
+    {
+      "from": 62,
+      "to": 65
+    },
+    {
+      "from": 62,
+      "to": 15
+    },
+    {
+      "from": 62,
+      "to": 8
+    },
+    {
+      "from": 63,
+      "to": 65
+    },
+    {
+      "from": 64,
+      "to": 62
+    },
+    {
+      "from": 64,
+      "to": 63
+    },
+    {
+      "from": 64,
+      "to": 62
+    },
+    {
+      "from": 64,
+      "to": 65
+    },
+    {
+      "from": 16,
+      "to": 23
+    },
+    {
+      "from": 16,
+      "to": 15
+    },
+    {
+      "from": 26,
+      "to": 16
+    },
+    {
+      "from": 26,
+      "to": 19
+    },
+    {
+      "from": 26,
+      "to": 18
+    },
+    {
+      "from": 26,
+      "to": 23
+    },
+    {
+      "from": 26,
+      "to": 17
+    },
+    {
+      "from": 26,
+      "to": 22
+    },
+    {
+      "from": 26,
+      "to": 24
+    },
+    {
+      "from": 26,
+      "to": 20
+    },
+    {
+      "from": 26,
+      "to": 15
+    },
+    {
+      "from": 26,
+      "to": 6
+    },
+    {
+      "from": 26,
+      "to": 13
+    },
+    {
+      "from": 26,
+      "to": 1
+    },
+    {
+      "from": 26,
+      "to": 5
+    },
+    {
+      "from": 26,
+      "to": 12
+    },
+    {
+      "from": 26,
+      "to": 7
+    },
+    {
+      "from": 26,
+      "to": 9
+    },
+    {
+      "from": 26,
+      "to": 14
+    },
+    {
+      "from": 26,
+      "to": 10
+    },
+    {
+      "from": 26,
+      "to": 3
+    },
+    {
+      "from": 26,
+      "to": 8
+    },
+    {
+      "from": 26,
+      "to": 4
+    },
+    {
+      "from": 26,
+      "to": 52
+    },
+    {
+      "from": 26,
+      "to": 31
+    },
+    {
+      "from": 26,
+      "to": 27
+    },
+    {
+      "from": 26,
+      "to": 35
+    },
+    {
+      "from": 26,
+      "to": 36
+    },
+    {
+      "from": 26,
+      "to": 58
+    },
+    {
+      "from": 26,
+      "to": 61
+    },
+    {
+      "from": 26,
+      "to": 60
+    },
+    {
+      "from": 26,
+      "to": 59
+    },
+    {
+      "from": 52,
+      "to": 45
+    },
+    {
+      "from": 52,
+      "to": 65
+    },
+    {
+      "from": 52,
+      "to": 56
+    },
+    {
+      "from": 52,
+      "to": 46
+    },
+    {
+      "from": 52,
+      "to": 7
+    },
+    {
+      "from": 52,
+      "to": 1
+    },
+    {
+      "from": 52,
+      "to": 1
+    },
+    {
+      "from": 52,
+      "to": 15
+    },
+    {
+      "from": 52,
+      "to": 5
+    },
+    {
+      "from": 52,
+      "to": 13
+    },
+    {
+      "from": 52,
+      "to": 14
+    },
+    {
+      "from": 52,
+      "to": 60
+    },
+    {
+      "from": 52,
+      "to": 42
+    },
+    {
+      "from": 52,
+      "to": 39
+    },
+    {
+      "from": 52,
+      "to": 3
+    },
+    {
+      "from": 52,
+      "to": 37
+    },
+    {
+      "from": 52,
+      "to": 54
+    },
+    {
+      "from": 52,
+      "to": 65
+    },
+    {
+      "from": 52,
+      "to": 65
+    },
+    {
+      "from": 52,
+      "to": 6
+    },
+    {
+      "from": 52,
+      "to": 57
+    },
+    {
+      "from": 52,
+      "to": 38
+    },
+    {
+      "from": 52,
+      "to": 31
+    },
+    {
+      "from": 52,
+      "to": 33
+    },
+    {
+      "from": 52,
+      "to": 30
+    },
+    {
+      "from": 52,
+      "to": 35
+    },
+    {
+      "from": 52,
+      "to": 34
+    },
+    {
+      "from": 52,
+      "to": 27
+    },
+    {
+      "from": 52,
+      "to": 44
+    },
+    {
+      "from": 52,
+      "to": 32
+    },
+    {
+      "from": 52,
+      "to": 29
+    },
+    {
+      "from": 52,
+      "to": 31
+    },
+    {
+      "from": 52,
+      "to": 28
+    },
+    {
+      "from": 52,
+      "to": 43
+    },
+    {
+      "from": 52,
+      "to": 51
+    },
+    {
+      "from": 52,
+      "to": 65
+    },
+    {
+      "from": 52,
+      "to": 40
+    },
+    {
+      "from": 52,
+      "to": 41
+    },
+    {
+      "from": 52,
+      "to": 65
+    },
+    {
+      "from": 52,
+      "to": 45
+    },
+    {
+      "from": 52,
+      "to": 45
+    },
+    {
+      "from": 50,
+      "to": 4
+    },
+    {
+      "from": 53,
+      "to": 65
+    },
+    {
+      "from": 40,
+      "to": 26
+    },
+    {
+      "from": 40,
+      "to": 63
+    },
+    {
+      "from": 45,
+      "to": 23
+    },
+    {
+      "from": 45,
+      "to": 52
+    },
+    {
+      "from": 47,
+      "to": 65
+    },
+    {
+      "from": 49,
+      "to": 65
+    },
+    {
+      "from": 55,
+      "to": 61
+    },
+    {
+      "from": 31,
+      "to": 65
+    },
+    {
+      "from": 28,
+      "to": 29
+    },
+    {
+      "from": 28,
+      "to": 35
+    },
+    {
+      "from": 28,
+      "to": 35
+    },
+    {
+      "from": 28,
+      "to": 35
+    },
+    {
+      "from": 32,
+      "to": 8
+    },
+    {
+      "from": 35,
+      "to": 31
+    },
+    {
+      "from": 35,
+      "to": 28
+    },
+    {
+      "from": 35,
+      "to": 28
+    },
+    {
+      "from": 58,
+      "to": 61
+    },
+    {
+      "from": 61,
+      "to": 8
+    },
+    {
+      "from": 17,
+      "to": 15
+    },
+    {
+      "from": 17,
+      "to": 22
+    },
+    {
+      "from": 17,
+      "to": 21
+    },
+    {
+      "from": 17,
+      "to": 7
+    },
+    {
+      "from": 17,
+      "to": 14
+    },
+    {
+      "from": 17,
+      "to": 19
+    },
+    {
+      "from": 21,
+      "to": 7
+    },
+    {
+      "from": 21,
+      "to": 1
+    },
+    {
+      "from": 21,
+      "to": 14
+    },
+    {
+      "from": 21,
+      "to": 13
+    },
+    {
+      "from": 24,
+      "to": 38
+    },
+    {
+      "from": 19,
+      "to": 18
+    },
+    {
+      "from": 19,
+      "to": 17
+    },
+    {
+      "from": 19,
+      "to": 18
+    },
+    {
+      "from": 19,
+      "to": 22
+    },
+    {
+      "from": 19,
+      "to": 21
+    },
+    {
+      "from": 19,
+      "to": 7
+    },
+    {
+      "from": 19,
+      "to": 16
+    },
+    {
+      "from": 18,
+      "to": 13
+    },
+    {
+      "from": 18,
+      "to": 23
+    },
+    {
+      "from": 18,
+      "to": 36
+    },
+    {
+      "from": 22,
+      "to": 6
+    },
+    {
+      "from": 22,
+      "to": 13
+    },
+    {
+      "from": 22,
+      "to": 21
+    },
+    {
+      "from": 22,
+      "to": 13
+    },
+    {
+      "from": 22,
+      "to": 7
+    },
+    {
+      "from": 22,
+      "to": 14
+    },
+    {
+      "from": 22,
+      "to": 5
+    },
+    {
+      "from": 7,
+      "to": 9
+    },
+    {
+      "from": 7,
+      "to": 15
+    },
+    {
+      "from": 7,
+      "to": 13
+    },
+    {
+      "from": 7,
+      "to": 9
+    },
+    {
+      "from": 7,
+      "to": 15
+    },
+    {
+      "from": 7,
+      "to": 14
+    },
+    {
+      "from": 7,
+      "to": 13
+    },
+    {
+      "from": 7,
+      "to": 5
+    },
+    {
+      "from": 14,
+      "to": 5
+    },
+    {
+      "from": 15,
+      "to": 8
+    },
+    {
+      "from": 15,
+      "to": 14
+    },
+    {
+      "from": 9,
+      "to": 22
+    },
+    {
+      "from": 9,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 13
+    },
+    {
+      "from": 5,
+      "to": 14
+    },
+    {
+      "from": 1,
+      "to": 15
+    },
+    {
+      "from": 13,
+      "to": 7
+    }
+  ]
+}

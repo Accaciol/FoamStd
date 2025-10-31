@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Foam Graph</title>
+    <style>
+      html,body{height:100%;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+      #network{width:100%;height:100vh;background:#fff}
+      .topbar{position:fixed;left:0;right:0;top:0;height:44px;background:#f6f8fa;border-bottom:1px solid #e1e4e8;display:flex;align-items:center;padding:0 12px;z-index:10}
+      .topbar h1{font-size:14px;margin:0}
+      #network-wrap{padding-top:48px}
+    </style>
+    <!-- vis-network standalone UMD -->
+    <script src="https://unpkg.com/vis-network@9.1.2/standalone/umd/vis-network.min.js"></script>
+  </head>
+  <body>
+    <div class="topbar"><h1>Foam Graph</h1></div>
+    <div id="network-wrap"><div id="network"></div></div>
+
+    <script>
+      async function load() {
+        const res = await fetch('data/graph.json');
+        const graph = await res.json();
+
+        const nodes = graph.nodes.map(n => ({ id: n.id, label: n.label, title: n.path }));
+        const edges = graph.edges.map(e => ({ from: e.from, to: e.to }));
+
+        const container = document.getElementById('network');
+        const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
+        const options = {
+          nodes: { shape: 'dot', size: 8 },
+          edges: { arrows: { to: false }, smooth: { type: 'cubicBezier' } },
+          physics: { stabilization: false, barnesHut: { gravitationalConstant: -2000 } },
+          interaction: { hover: true, navigationButtons: true, keyboard: true }
+        };
+
+        const network = new vis.Network(container, data, options);
+
+        // open the file in raw view on double click — attempt to construct a GitHub raw URL
+        function getGithubRawUrl(path) {
+          try {
+            const host = window.location.hostname; // e.g., owner.github.io
+            if (!host.endsWith('github.io')) return null;
+            const owner = host.split('.')[0];
+            const parts = window.location.pathname.split('/').filter(Boolean); // ['repo', ...]
+            if (parts.length === 0) return null;
+            const repo = parts[0];
+            const branch = 'gh-pages';
+            return `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${path}`;
+          } catch (e) {
+            return null;
+          }
+        }
+
+        network.on('doubleClick', function(params) {
+          if (params.nodes && params.nodes.length) {
+            const nodeId = params.nodes[0];
+            const node = graph.nodes.find(n => n.id === nodeId);
+            if (node && node.path) {
+              const raw = getGithubRawUrl(node.path);
+              if (raw) window.open(raw, '_blank');
+              else window.open(node.path, '_blank');
+            }
+          }
+        });
+      }
+      load().catch(e => {
+        document.getElementById('network').innerText = 'Erro ao carregar grafo: ' + e;
+        console.error(e);
+      });
+    </script>
+  </body>
+</html>
